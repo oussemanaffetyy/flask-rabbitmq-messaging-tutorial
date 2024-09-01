@@ -56,11 +56,7 @@ This will start the Flask server on http://localhost:5000.
    ```
 You should see the message received in the terminal.
 ### Video Tutorial
-Click on the image below to watch the tutorial:
-
-[![Watch the video](https://github.com/oussemanaffetyy/flask-rabbitmq-messaging-tutorial/blob/main/thumbnail.png)](https://github.com/oussemanaffetyy/MEDIA/blob/main/tutorial.webm)
+Watch the full video tutorial on setting up and running this project: ![Tutorial Video](https://github.com/oussemanaffetyy/MEDIA/blob/main/tutorial-ezgif.com-video-to-gif-converter.gif)
 ### License
 This project is licensed under the [MIT License](https://github.com/oussemanaffetyy/flask-rabbitmq-messaging-tutorial/blob/main/LICENSE) - see the [LICENSE](https://github.com/oussemanaffetyy/flask-rabbitmq-messaging-tutorial/blob/main/LICENSE) file for details.
-
-
 
