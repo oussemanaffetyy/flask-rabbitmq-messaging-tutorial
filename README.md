@@ -43,7 +43,7 @@ pip install -r requirements.txt
    ``` 
    python sender.py 
    ```
-       This will start the Flask server on http://localhost:5000.
+This will start the Flask server on http://localhost:5000.
   ####  3. Send a Message: Use the following curl command to send a message:
        
    ```
