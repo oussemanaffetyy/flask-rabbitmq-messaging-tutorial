@@ -4,14 +4,14 @@
 This repository contains a tutorial for setting up messaging between Flask and RabbitMQ. We will demonstrate how to send and receive messages using Flask and RabbitMQ, all within a Python virtual environment.
 
 ## Project Structure
-
+```
 flask-rabbitmq-messaging-tutorial/
 ├── sender.py         # Flask app to send messages to RabbitMQ
 ├── receiver.py       # Script to receive messages from RabbitMQ
 ├── README.md         # Project documentation
 ├── requirements.txt  # Python dependencies
 └── venv/             # Python virtual environment
-
+```
 ## Getting Started
 
 Follow these steps to set up the project on your local machine.
