@@ -5,9 +5,12 @@ This repository contains a tutorial for setting up messaging between Flask and R
 
 ## Project Structure
 
-flask-rabbitmq-messaging-tutorial/ ├── sender.py # Flask app to send messages to RabbitMQ ├── receiver.py # Script to receive messages from RabbitMQ ├── README.md # Project documentation ├── requirements.txt # Python dependencies └── venv/ # Python virtual environment
-bash
-Copier le code
+flask-rabbitmq-messaging-tutorial/
+├── sender.py         # Flask app to send messages to RabbitMQ
+├── receiver.py       # Script to receive messages from RabbitMQ
+├── README.md         # Project documentation
+├── requirements.txt  # Python dependencies
+└── venv/             # Python virtual environment
 
 ## Getting Started
 
