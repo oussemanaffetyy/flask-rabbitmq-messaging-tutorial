@@ -26,18 +26,14 @@ Follow these steps to set up the project on your local machine.
 1. Clone the repository:
    ```
    git clone https://github.com/oussemanaffetyy/flask-rabbitmq-messaging-tutorial.git
-   ```
    cd flask-rabbitmq-messaging-tutorial
+   ```
 2. Set up the virtual environment and install dependencies:
       ```
        python3 -m venv venv
-       ```
-       ```
        source venv/bin/activate
-       ```
-       ```
        pip install -r requirements.txt
-       ```
+      ```
 Running the Project
     1. Start RabbitMQ Server: Ensure that RabbitMQ server is running on your machine:
        bash
