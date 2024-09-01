@@ -34,26 +34,27 @@ Follow these steps to set up the project on your local machine.
        source venv/bin/activate
        pip install -r requirements.txt
       ```
-Running the Project
-    1. Start RabbitMQ Server: Ensure that RabbitMQ server is running on your machine:
-       bash
-       Copier le code
+### Running the Project
+   #### 1. Start RabbitMQ Server: Ensure that RabbitMQ server is running on your machine:
+       ```
        sudo systemctl start rabbitmq-server
-    2. Run the Sender (Flask App): In one terminal window, run the sender:
-       bash
-       Copier le code
+       ```
+  ####  2. Run the Sender (Flask App): In one terminal window, run the sender:
+       
+       ```
        python sender.py
+       ```
        This will start the Flask server on http://localhost:5000.
-    3. Send a Message: Use the following curl command to send a message:
+  ####  3. Send a Message: Use the following curl command to send a message:
        bash
        Copier le code
        curl -X POST -H "Content-Type: application/json" -d '{"message": "Hello, RabbitMQ!"}' http://localhost:5000/send
-    4. Run the Receiver: In another terminal window, run the receiver script:
-       bash
-       Copier le code
+   #### 4. Run the Receiver: In another terminal window, run the receiver script:
+       ```
        python receiver.py
+       ```
        You should see the message received in the terminal.
-Video Tutorial
+### Video Tutorial
 Watch the full video tutorial on setting up and running this project: [Video Link]
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
