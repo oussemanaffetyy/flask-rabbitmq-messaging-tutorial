@@ -58,4 +58,4 @@ You should see the message received in the terminal.
 ### Video Tutorial
 Watch the full video tutorial on setting up and running this project: [Video Link]
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/oussemanaffetyy/flask-rabbitmq-messaging-tutorial/blob/main/LICENSE) - see the [LICENSE](https://github.com/oussemanaffetyy/flask-rabbitmq-messaging-tutorial/blob/main/LICENSE) file for details.
